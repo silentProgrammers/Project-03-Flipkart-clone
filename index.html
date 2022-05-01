@@ -53,7 +53,7 @@
                     aria-haspopup="true" aria-expanded="true">
                     Login
                 </button>
-                <div class="dropdown-menu login-list col-12 aria-labelledby=" loginMenuButton">
+                <div class="dropdown-menu login-list col-12" aria-labelledby="loginMenuButton">
                     <div class="d-flex">
                         <h6 class="ml-md-1">New Customer?</h6>
                         <a href="#" class="ml-auto mr-2" id="signUp">Sign Up</a>
@@ -136,9 +136,17 @@
 
     <!--Navigation Bar-->
     <div class="container-fluid Navbar shadow-sm">
-        <div class="Nav">
-            <a href="#">Electronics</a>
-            <i class="fas fa-angle-down pt-1"></i>
+        <div class="Navb">
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Electronics
+           </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Audio</a>
+              <a class="dropdown-item" href="#">Computer parts</a>
+              <a class="dropdown-item" href="#">Mobiles</a>
+            </div>
+          </div>
         </div>
         <div class="Nav">
             <a href="#">TVs & Appliances</a>

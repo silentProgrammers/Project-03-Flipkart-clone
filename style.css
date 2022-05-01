@@ -115,6 +115,11 @@ body{
     cursor: pointer;
     padding: .5em 0.1em;
 }
+.Navb {
+    padding-bottom: 5px;
+
+
+}
  
 .Nav:hover, .Nav:hover a{
     color: #007bff;
